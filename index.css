@@ -1,0 +1,31 @@
+body {
+  background-color:darkslateblue;
+}
+
+.list-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  margin: 100px auto;
+}
+
+.list {
+  border: 2px solid white;
+  padding-left: 0px;
+  color: white;
+}
+
+.list > li {
+  list-style: none;
+  border-bottom: 2px solid white;
+  padding: 10px;
+}
+
+.add-person-button {
+  width: 100px;
+  margin: 0px 0px 10px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px solid black;
+}
